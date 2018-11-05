@@ -18,12 +18,27 @@ figcaption {
   text-shadow:  0 2px 3px #000;
 }
 
+.shadow {
+  box-shadow: 0 3px 10px #333;
+}
+
+.border-right{
+  border-right: 1px dotted #ccc;
+  padding-right: 30px;
+}
+
 #logo h1 {
   font-family: 'Clicker Script', cursive;
 }
 
 #logo h2 {
   font-family: 'Elsie Swash Caps', cursive;
+}
+
+/*///DETAILS///*/
+
+#details div {
+  height: 221px;
 }
 
 #details a:link, #details a:visited {
@@ -59,17 +74,14 @@ img, video, audio {
 .col-1 {
   float: left;
   width: 32%;
-  background : #ccc;
 }
 
 .col-2 {
   float: left;
   width: 66%;
-  background: #ccc;
 }
 
 .col-3 {
-  background: #ccc;
 }
 
 [class*="col-"] {
@@ -89,6 +101,10 @@ img, video, audio {
   line-height: 0;
 }
 
+.clear {
+  clear:both;
+}
+
 /*///SECTIONS///*/
 
 header {
@@ -99,6 +115,7 @@ header {
   background: #fff;
   z-index: 1;
 }
+
 section {
   padding: 20px;
   margin-bottom: 20px;
